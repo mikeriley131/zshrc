@@ -28,3 +28,12 @@ setopt PROMPT_SUBST
 PROMPT='%K{green}%F{black}%f%k%K{green}%F{black} %1~ %f%k%K{white}%F{green}%f%k%K{white}%F{black} $(git_prompt) %f%k%F{white}%f $ '
 
 # Available colors: black, red, green, yellow, blue, magenta, cyan and white
+
+alias gs="git status"
+alias gp="git pull"
+alias gc="git commit -m "
+alias gca="git commit -am "
+alias gco="git checkout "
+alias gbn="git checkout -b "
+alias gbd="git branch -D "
+alias gpo="git push -u origin "
